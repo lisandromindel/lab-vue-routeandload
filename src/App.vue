@@ -6,18 +6,9 @@
 </template>
 
 <script>
-import { mapActions } from 'vuex'
 
 export default {
-  name: 'app',
-  components: {
-  },
-  methods: {
-    ...mapActions(['load'])
-  },
-  created() {
-    // this.load()
-  },
+  name: 'app'
 }
 </script>
 
